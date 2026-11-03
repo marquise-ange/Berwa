@@ -199,6 +199,28 @@ document.querySelector('#app').innerHTML = `
     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 5v14m-7-7 7 7 7-7"/>
   </svg>
 </div>
-
 </section>
+
+<!-- Shopping Benefits Section -->
+<section class="bg-[#080B18] px-6 py-12">
+  <div class="mx-auto grid max-w-7xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4">
+
+<!-- Free Shipping -->
+    <div class="flex items-start gap-4 border-b border-white/20 pb-6 lg:border-b-0 lg:border-r lg:pr-6">
+      <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-purple-500/15 text-purple-400">
+        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path d="M3 7h11v11H3zM14 11h4l3 3v4h-7z" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="7.5" cy="18" r="1.5" stroke-width="1.7"/>
+          <circle cx="17.5" cy="18" r="1.5" stroke-width="1.7"/>
+        </svg>
+      </div>
+      <div>
+        <h3 class="mb-2 text-base font-semibold text-white">Free Shipping</h3>
+        <p class="text-sm leading-relaxed text-gray-300">
+          Free shipping on all orders over $100. Express delivery available.
+        </p>
+      </div>
+    </div>
+
+
 `
