@@ -37,11 +37,32 @@ document.querySelector('#app').innerHTML = `
       </ul>
 
       <!-- Header Actions -->
-      <div class="hidden md:flex items-center gap-6">
-        <a href="#" class="text-white hover:text-purple-500 transition-colors duration-300">Search</a>
-        <a href="#" class="text-white hover:text-purple-500 transition-colors duration-300">Wishlist</a>
-        <a href="#" class="text-white hover:text-purple-500 transition-colors duration-300">Cart</a>
-      </div>
+<div class="hidden md:flex items-center gap-6 text-white">
+
+  <!-- Search -->
+  <a href="#" aria-label="Search" class="transition-colors duration-300 hover:text-purple-500">
+    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <circle cx="11" cy="11" r="7" stroke-width="1.8"/>
+    <path d="m16 16 4 4" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </a>
+       <!-- Dark Mode -->
+<a href="#" aria-label="Dark Mode"class="transition-colors duration-300 hover:text-purple-500">
+  <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5a8.5 8.5 0 1 0 12 12Z" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</a>
+       <!-- Cart -->
+  <a href="#" aria-label="Shopping Cart" class="relative transition-colors duration-300 hover:text-purple-500">
+    <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path d="M3 3h2l2.5 12h10.8l2.2-8H6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="9" cy="19" r="1" fill="currentColor"/>
+      <circle cx="18" cy="19" r="1" fill="currentColor"/>
+    </svg>
+    <span class="absolute -right-2 -top-2 flex h-4 w-4 items-center justify-center rounded-full bg-purple-600 text-[10px] text-white">3</span>
+  </a>
+
+</div>
 
     </nav>
   </header>
@@ -162,16 +183,22 @@ document.querySelector('#app').innerHTML = `
               <h3 class="text-lg font-bold text-white">Secure Checkout</h3>
               <p class="text-base text-gray-300">100% protected payment</p>
             </div>
-
           </div>
-
-        </div>
-
+        </div
       </div>
-
     </div>
-
-  </section>
+  
 
   
+<!-- Scroll Down Indicator -->
+<div class="absolute bottom-26 left-1/2 flex -translate-x-1/2 flex-col items-center gap-2">
+  <span class="text-xs font-medium uppercase tracking-[3px] text-white/70">
+    Scroll Down</span>
+
+  <svg class="h-6 w-6 animate-bounce text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 5v14m-7-7 7 7 7-7"/>
+  </svg>
+</div>
+
+</section>
 `
