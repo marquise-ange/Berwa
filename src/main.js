@@ -216,11 +216,69 @@ document.querySelector('#app').innerHTML = `
       </div>
       <div>
         <h3 class="mb-2 text-base font-semibold text-white">Free Shipping</h3>
-        <p class="text-sm leading-relaxed text-gray-300">
+        <p class="text-sm leading-relaxed text-gray-400">
           Free shipping on all orders over $100. Express delivery available.
         </p>
       </div>
     </div>
 
+    <!-- Secure payment -->
+    <div class="flex items-start gap-4 border-b border-white/20 pb-6 lg:border-b-0 lg:border-r lg:pr-6">
+    <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-purple-500/15 text-purple-400">
+    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <rect x="4" y="10" width="16" height="11" rx="2" stroke-width="1.7"/>
+          <path d="M8 10V7a4 4 0 0 1 8 0v3m-4 5v2" stroke-width="1.7" stroke-linecap="round"/>
+        </svg>
+        </div>
+        <div>
+        <h3 class="mb-2 text-base font-semibold text-white">Secure Payment</h3>
+        <p class="text-sm leading-relaxed text-gray-400">
+        your payment information is encrypted and secure with us.
+        </p>
+        </div>
+        </div>
 
+
+        <!--Easy return -->
+
+      <div class="flex items-start gap-4 border-b border-white/20 pb-6 lg:border-b-0 lg:border-r lg:pr-6">
+
+  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-purple-500/15 text-purple-400">
+    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path d="M3 11a9 9 0 1 1 2.6 6.4M3 11V5m0 6h6"
+        stroke-width="1.7"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+    </svg>
+  </div>
+        <div>
+        <h3 class="mb-2 text-base font-semibold text-white">Easy Return</h3>
+        <p class="text-sm leading-relaxed text-gray-400">
+         30-day return policy. No questions asked, hassle-free returns.
+        </p>
+        </div>
+        </div>
+
+<!--24/7 support-->
+
+<div class="flex items-start gap-4 pb-6">
+
+  <div class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-purple-500/15 text-purple-400">
+    <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path d="M3 12a9 9 0 0 1 18 0v5a2 2 0 0 1-2 2h-3v-6h5M3 12v5a2 2 0 0 0 2 2h3v-6H3"
+        stroke-width="1.7"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+    </svg>
+  </div>
+        <div>
+        <h3 class="mb-2 text-base font-semibold text-white">24/7 Support</h3>
+        <p class="text-sm leading-relaxed text-gray-400">
+         Our support team is available around the clock to assist you.
+        </p>
+        </div>
+        </div>
+
+
+  
 `
